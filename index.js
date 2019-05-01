@@ -16,8 +16,8 @@ describe('whisper(string)', function () {
     except(whisper('HELLO')).toEqual('hello')
   })
 })
-function logWhisper(string) {
-  console.log(string).toLowerCase()
+function logShout(string) {
+  console.log(string).toUpperCase()
 }
 
 describe('logShout(string)', function() {
