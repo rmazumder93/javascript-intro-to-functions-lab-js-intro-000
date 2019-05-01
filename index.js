@@ -17,7 +17,7 @@ describe('whisper(string)', function () {
   })
 })
 function logWhisper(string) {
-  console.log(string).toLowerCase
+  console.log(string).toLowerCase()
 }
 
 describe('logShout(string)', function() {
