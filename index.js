@@ -10,3 +10,9 @@ describe('shout(string)', function () {
 function whisper(string) {
   return string.toLowerCase()
 }
+
+describe('whisper(string)', function () {
+  it('received one argument and returns it in all lowercase', function (){
+    except(whisper('HELLO')).toEqual('hello')
+  })
+})
