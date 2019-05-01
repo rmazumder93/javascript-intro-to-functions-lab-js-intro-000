@@ -17,7 +17,7 @@ describe('whisper(string)', function () {
   })
 })
 function logShout(string) {
-  logShout(string).toUpperCase()
+  console.log().toUpperCase()
 }
 
 describe('logShout(string)', function() {
